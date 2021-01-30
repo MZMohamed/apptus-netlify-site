@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
-    "start": "npm run clean && run-p start:**",
+    "start": "run-p start:**",
     "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
     "start:hugo": "hugo -d ../dist -s site -vw",    
     "preview": "run-p preview:**",
@@ -17,9 +17,7 @@
     "build:preview": "npm run build:webpack && npm run build:hugo:preview",
     "build:hugo": "hugo -d ../dist -s site -v",
     "build:hugo:preview": "npm run build:hugo -- -D -F",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
-    "clean": "rm -rf build"
-
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "MIT",
