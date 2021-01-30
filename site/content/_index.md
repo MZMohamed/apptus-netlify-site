@@ -1,6 +1,6 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "Mobile App, Web, E-Commerce Design  Development"
+subtitle: We Bring your Ideas to life
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
